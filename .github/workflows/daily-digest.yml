@@ -1,0 +1,52 @@
+# daily-digest.yml
+#
+# Sends a morning career-ops email digest to DIGEST_TO every day.
+#
+# Schedule: 05:00 UTC
+#   → 05:00 Irish time (GMT, Oct–Mar)
+#   → 06:00 Irish time (IST/BST, Mar–Oct)
+#
+# One-time setup — add these repository secrets (Settings → Secrets → Actions):
+#   GMAIL_USER         — the Gmail address that sends the email (e.g. you@gmail.com)
+#   GMAIL_APP_PASSWORD — a Gmail App Password (NOT your Google login password)
+#                        Create one at: https://myaccount.google.com/apppasswords
+#   DIGEST_TO          — recipient email address (e.g. akashvikram98@gmail.com)
+#
+# You can also trigger this manually via the Actions tab → "Run workflow".
+
+name: Daily Digest Email
+
+on:
+  schedule:
+    # 05:00 UTC every day
+    - cron: '0 5 * * *'
+  workflow_dispatch:   # allow manual runs from the Actions tab
+
+permissions:
+  contents: read   # read-only checkout; no other GitHub API access needed
+
+jobs:
+  digest:
+    name: Send morning digest
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Send daily digest
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO:          ${{ secrets.DIGEST_TO }}
+        run: node daily-digest.mjs
