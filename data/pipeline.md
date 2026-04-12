@@ -1090,4 +1090,10 @@
 
 - [ ] https://n26.com/en-eu/careers/positions/7547200?gh_jid=7547200 | N26 | Quality Engineer
 
+- [ ] https://helsing.ai/jobs/4794929101?gh_jid=4794929101 | Helsing | Compliance Verification Engineer 
+- [ ] https://helsing.ai/jobs/4797003101?gh_jid=4797003101 | Helsing | Manager Information Security / Stv. VS-IT-Beauftragter
+- [ ] https://n26.com/en-eu/careers/positions/7577884?gh_jid=7577884 | N26 | Senior Full-Stack Security Automation Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4020350008 | Anthropic | Performance Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4926227008 | Anthropic | Performance Engineer, GPU
+
 ## Procesadas
