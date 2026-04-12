@@ -13,9 +13,12 @@
  *   node scan.mjs                  # scan all enabled companies
  *   node scan.mjs --dry-run        # preview without writing files
  *   node scan.mjs --company Cohere # scan a single company
+ *   node scan.mjs --email          # scan and send results via email (requires GMAIL_USER, GMAIL_APP_PASSWORD, DIGEST_TO)
+ *   node scan.mjs --email-always   # like --email but sends even when no new offers found
  */
 
 import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'fs';
+import { createTransport } from 'nodemailer';
 import yaml from 'js-yaml';
 const parseYaml = yaml.load;
 
@@ -244,11 +247,167 @@ async function parallelFetch(tasks, limit) {
   return results;
 }
 
+// ── Scan email builder ──────────────────────────────────────────────
+
+function formatScanDate(date, style) {
+  const opts = style === 'short'
+    ? { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }
+    : { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
+  return new Date(date).toLocaleDateString('en-IE', opts);
+}
+
+function buildScanHtml(newOffers, date, stats) {
+  const dateLabel = formatScanDate(date, 'long');
+
+  // Group offers by company
+  const byCompany = {};
+  for (const o of newOffers) {
+    if (!byCompany[o.company]) byCompany[o.company] = [];
+    byCompany[o.company].push(o);
+  }
+
+  let offersHtml = '';
+  if (newOffers.length === 0) {
+    offersHtml = `<tr><td colspan="3" style="padding:12px 0;color:#6b7280;font-size:14px;font-style:italic">No new offers matched your filters in this scan.</td></tr>`;
+  } else {
+    for (const [company, offers] of Object.entries(byCompany)) {
+      offersHtml += `
+        <tr>
+          <td colspan="3" style="padding:12px 0 4px 0;font-size:12px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:.05em;border-top:1px solid #e5e7eb">${company}</td>
+        </tr>`;
+      for (const o of offers) {
+        const location = o.location ? `<span style="color:#9ca3af"> · ${o.location}</span>` : '';
+        offersHtml += `
+        <tr style="border-bottom:1px solid #f3f4f6">
+          <td style="padding:5px 8px 5px 0;font-size:13px;color:#111827">
+            <a href="${o.url}" style="color:#3b82f6;text-decoration:none">${o.title}</a>${location}
+          </td>
+          <td style="padding:5px 0;text-align:right;white-space:nowrap">
+            <span style="font-size:11px;background:#f3f4f6;border-radius:4px;padding:2px 6px;color:#6b7280">${o.source || 'api'}</span>
+          </td>
+        </tr>`;
+      }
+    }
+  }
+
+  const errorRows = stats.errors.length > 0
+    ? `<p style="font-size:12px;color:#ef4444;margin:8px 0 0 0">⚠ ${stats.errors.length} error(s): ${stats.errors.map(e => e.company).join(', ')}</p>`
+    : '';
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>career-ops scan — ${date}</title>
+</head>
+<body style="margin:0;padding:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;padding:32px 16px">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1);max-width:600px;width:100%">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:linear-gradient(135deg,#1e293b,#334155);padding:28px 32px">
+            <p style="margin:0 0 4px 0;font-size:12px;color:#94a3b8;text-transform:uppercase;letter-spacing:.1em">career-ops</p>
+            <h1 style="margin:0;font-size:22px;color:#f8fafc;font-weight:700">Portal Scan Results</h1>
+            <p style="margin:8px 0 0 0;font-size:14px;color:#94a3b8">${dateLabel}</p>
+          </td>
+        </tr>
+
+        <!-- Stats bar -->
+        <tr>
+          <td style="padding:20px 32px 0 32px">
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                ${[
+                  ['Scanned', stats.companiesScanned, '#1e293b'],
+                  ['Found', stats.totalFound, '#6b7280'],
+                  ['Filtered', stats.totalFiltered, '#f59e0b'],
+                  ['New', newOffers.length, newOffers.length > 0 ? '#22c55e' : '#6b7280'],
+                ].map(([label, val, color]) => `
+                  <td style="text-align:center;padding:0 8px">
+                    <div style="background:#f8fafc;border-radius:8px;padding:12px 8px">
+                      <div style="font-size:24px;font-weight:700;color:${color}">${val}</div>
+                      <div style="font-size:11px;color:#6b7280;margin-top:2px;text-transform:uppercase;letter-spacing:.05em">${label}</div>
+                    </div>
+                  </td>`).join('')}
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- New offers -->
+        <tr>
+          <td style="padding:24px 32px 32px 32px">
+            <h2 style="margin:0 0 12px 0;font-size:16px;color:#111827;border-bottom:2px solid #e5e7eb;padding-bottom:6px">
+              🆕 New Offers (${newOffers.length})
+            </h2>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              ${offersHtml}
+            </table>
+            ${errorRows}
+            ${newOffers.length > 0 ? `
+            <p style="margin:16px 0 0 0;font-size:13px;color:#6b7280">
+              These URLs have been added to your pipeline inbox. Run <code style="background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:12px">/career-ops pipeline</code> to evaluate them.
+            </p>` : ''}
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:16px 32px;text-align:center">
+            <p style="margin:0;font-size:11px;color:#9ca3af">
+              Sent by <strong>career-ops</strong> · portal scan ·
+              <a href="https://github.com/santifer/career-ops" style="color:#6b7280;text-decoration:none">github</a>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+}
+
+async function sendScanEmail(newOffers, date, stats) {
+  const { GMAIL_USER, GMAIL_APP_PASSWORD, DIGEST_TO } = process.env;
+
+  if (!GMAIL_USER || !GMAIL_APP_PASSWORD || !DIGEST_TO) {
+    console.error(
+      'Missing required env vars for --email: GMAIL_USER, GMAIL_APP_PASSWORD, DIGEST_TO\n' +
+      'Set these as repository secrets in GitHub Actions (Settings → Secrets → Actions)\n' +
+      'or export them in your shell for local use.'
+    );
+    process.exit(1);
+  }
+
+  const html = buildScanHtml(newOffers, date, stats);
+  const transporter = createTransport({
+    service: 'gmail',
+    auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD },
+  });
+
+  const dateLabel = formatScanDate(date, 'short');
+
+  const info = await transporter.sendMail({
+    from: `"career-ops" <${GMAIL_USER}>`,
+    to: DIGEST_TO,
+    subject: `career-ops scan · ${dateLabel} · ${newOffers.length} new offer${newOffers.length !== 1 ? 's' : ''}`,
+    html,
+  });
+
+  console.log(`✅  Scan email sent → ${DIGEST_TO}  (messageId: ${info.messageId})`);
+}
+
 // ── Main ────────────────────────────────────────────────────────────
 
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const sendEmail = args.includes('--email') || args.includes('--email-always');
+  const emailAlways = args.includes('--email-always');
   const companyFlag = args.indexOf('--company');
   const filterCompany = companyFlag !== -1 ? args[companyFlag + 1]?.toLowerCase() : null;
 
@@ -356,6 +515,19 @@ async function main() {
 
   console.log(`\n→ Run /career-ops pipeline to evaluate new offers.`);
   console.log('→ Share results and get help: https://discord.gg/8pRpHETxa4');
+
+  // 7. Send email if requested
+  if (sendEmail && (emailAlways || newOffers.length > 0)) {
+    const stats = {
+      companiesScanned: targets.length,
+      totalFound,
+      totalFiltered,
+      errors,
+    };
+    await sendScanEmail(newOffers, date, stats);
+  } else if (sendEmail && newOffers.length === 0) {
+    console.log('No new offers found — skipping email (use --email-always to send anyway).');
+  }
 }
 
 main().catch(err => {
