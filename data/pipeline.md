@@ -1060,4 +1060,32 @@
 - [ ] https://jobs.lever.co/spotify/89c966c0-1975-42a1-850d-10fe20e02b05 | Spotify | Senior Staff Machine Learning Engineer
 - [ ] https://jobs.lever.co/spotify/736f1827-6b26-4b3b-b8d8-1d754296e033 | Spotify | Staff Machine Learning Engineer
 
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4012824005 | Glean | Quality Assurance Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4464005005 | Glean | Quality Assurance Lead
+- [ ] https://jobs.ashbyhq.com/deepgram/c270da71-66b3-4f9f-9ee1-773a062944d3 | Deepgram | QA Engineering Manager
+- [ ] https://jobs.ashbyhq.com/deepgram/1111c5de-2f90-4f38-a353-115a64a9ca33 | Deepgram | Model Evaluation QA Lead
+- [ ] https://helsing.ai/jobs/4812445101?gh_jid=4812445101 | Helsing | Production Quality Engineer
+- [ ] https://helsing.ai/jobs/4838426101?gh_jid=4838426101 | Helsing | Senior Quality Assurance Engineer
+- [ ] https://n26.com/en-eu/careers/positions/7585025?gh_jid=7585025 | N26 | Quality Assurance Team Lead
+- [ ] https://n26.com/en-eu/careers/positions/7546709?gh_jid=7546709 | N26 | Quality Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/7571440?gh_jid=7571440 | HelloFresh | Associate Director,  Food Safety & Quality Assurance
+- [ ] https://careers.hellofresh.com/global/en/job/7784809?gh_jid=7784809 | HelloFresh | Associate Quality Manager
+- [ ] https://careers.hellofresh.com/global/en/job/7471008?gh_jid=7471008 | HelloFresh | Food Safety Quality Assurance Manager - Downstream
+- [ ] https://careers.hellofresh.com/global/en/job/7454609?gh_jid=7454609 | HelloFresh | Freelance Senior Technical Project Manager - FSQA Processes & Systems (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7768210?gh_jid=7768210 | HelloFresh | FSQA Manager
+- [ ] https://careers.hellofresh.com/global/en/job/7741140?gh_jid=7741140 | HelloFresh | FSQA Manager (M/F/X)
+- [ ] https://careers.hellofresh.com/global/en/job/7493238?gh_jid=7493238 | HelloFresh | FSQA Specialist
+- [ ] https://careers.hellofresh.com/global/en/job/7681488?gh_jid=7681488 | HelloFresh | [HELLOCONNECT] FSQA Specialist - Project Based
+- [ ] https://careers.hellofresh.com/global/en/job/7455019?gh_jid=7455019 | HelloFresh | Manager, Food Safety & Quality Assurance
+- [ ] https://careers.hellofresh.com/global/en/job/7515898?gh_jid=7515898 | HelloFresh | Manager Int'l FSQA Quality Surveillance (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7585651?gh_jid=7585651 | HelloFresh | Senior FSQA Manager (all genders) 
+- [ ] https://careers.hellofresh.com/global/en/job/7720825?gh_jid=7720825 | HelloFresh | Site QA/QC Specialist (f/m/x)
+- [ ] https://careers.hellofresh.com/global/en/job/7775320?gh_jid=7775320 | HelloFresh | [US-DC] Senior Director, Inventory Control Quality Assurance
+- [ ] https://careers.hellofresh.com/global/en/job/7722089?gh_jid=7722089 | HelloFresh | [US-HQ] Senior Director, FSQA
+- [ ] https://sumup.com/careers/positions/8378568002?gh_jid=8378568002 | SumUp | Senior Mobile QA Engineer
+- [ ] https://www.scandit.com/careers/job-description/?gh_jid=7164841 | Scandit | Data Operations Quality Manager 
+- [ ] https://jobs.ashbyhq.com/lovable/b05475f9-1853-4ad2-9ce0-4e818ccc37ba | Lovable | Penetration Tester
+- [ ] https://jobs.ashbyhq.com/perplexity/3b349a2f-360e-44e6-a57d-6a87bc3016a7 | Perplexity | Search Quality Analyst 
+- [ ] https://jobs.lever.co/mistral/03918386-cb56-4e4d-afa8-1f8b7676a4a6 | Mistral AI | Software Engineer, QA
+
 ## Procesadas
