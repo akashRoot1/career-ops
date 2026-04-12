@@ -22,6 +22,9 @@ on:
     - cron: '0 5 * * *'
   workflow_dispatch:   # allow manual runs from the Actions tab
 
+permissions:
+  contents: read   # read-only checkout; no other GitHub API access needed
+
 jobs:
   digest:
     name: Send morning digest

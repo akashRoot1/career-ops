@@ -429,7 +429,7 @@ function buildHtml(d) {
           <td style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:16px 32px;text-align:center">
             <p style="margin:0;font-size:11px;color:#9ca3af">
               Sent by <strong>career-ops</strong> · daily digest ·
-              <a href="https://github.com/akashRoot1/career-ops" style="color:#6b7280;text-decoration:none">github</a>
+              <a href="https://github.com/santifer/career-ops" style="color:#6b7280;text-decoration:none">github</a>
             </p>
           </td>
         </tr>
@@ -476,6 +476,7 @@ async function sendDigest() {
 
   const dateLabel = new Date(d.date).toLocaleDateString('en-IE', {
     weekday: 'short', month: 'short', day: 'numeric',
+    // 'Europe/Dublin' matches the 5 AM Irish-time schedule; adjust if needed
     timeZone: 'Europe/Dublin',
   });
 
