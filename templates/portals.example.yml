@@ -22,56 +22,41 @@
 title_filter:
   positive:
     # [CUSTOMIZE] Add keywords matching YOUR target roles
-    # -- AI/ML roles --
-    - "AI"
-    - "ML"
-    - "LLM"
-    - "Machine Learning"
-    - "Data Scientist"
-    - "Agent"
-    - "Agentic"
-    - "GenAI"
-    - "Generative AI"
-    - "NLP"
-    - "LLMOps"
-    - "MLOps"
-    - "Voice AI"
-    - "Conversational AI"
-    - "Speech"
-    # -- German AI/ML keywords (DACH market) --
-    - "KI"
-    - "Künstliche Intelligenz"
-    - "KI Engineer"
-    - "KI Trainer"
-    - "Dozent"
-    - "Weiterbildung"
-    # -- Engineering roles --
-    - "Platform Engineer"
-    - "Solutions Architect"
-    - "Solutions Engineer"
-    - "Forward Deployed"
-    - "Deployed Engineer"
-    - "Customer Engineer"
-    - "Integration Engineer"
-    # -- Product roles --
-    - "Product Manager"
-    - "Technical PM"
-    # -- Automation roles --
-    - "Automation"
-    - "Hyperautomation"
-    - "Low-Code"
-    - "No-Code"
-    - "GTM Engineer"
-    - "RevOps"
-    - "Business Systems"
-    - "Internal Tools"
-    - "Transformation"
+    # -- QA / Testing roles --
+    - "QA Engineer"
+    - "QA Automation"
+    - "QA Analyst"
+    - "QA Lead"
+    - "QA Manager"
+    - "Quality Assurance"
+    - "Quality Engineer"
+    - "Quality Analyst"
+    - "Quality Manager"
+    - "Test Engineer"
+    - "Test Automation"
+    - "Test Analyst"
+    - "Test Lead"
+    - "Test Manager"
+    - "Testing Engineer"
+    - "Software Tester"
+    - "Software Test"
+    - "Automation Tester"
+    - "Manual Tester"
+    - "SDET"
+    - "Software Development Engineer in Test"
+    - "Performance Tester"
+    - "Performance Testing"
+    - "Load Tester"
+    - "Load Testing"
+    - "Security Tester"
+    - "Penetration Tester"
+    - "QA"
+    - "Tester"
   negative:
     # [CUSTOMIZE] Add keywords for roles you want to exclude
     - "Junior"
     - "Intern"
     - ".NET"
-    - "Java "
     - "iOS"
     - "Android"
     - "PHP"
@@ -103,195 +88,98 @@ title_filter:
 
 search_queries:
   # -- Ashby --
-  - name: Ashby — AI PM
-    query: 'site:jobs.ashbyhq.com "AI Product Manager" OR "Senior Product Manager AI" remote'
+  - name: Ashby — QA Engineer
+    query: 'site:jobs.ashbyhq.com "QA Engineer" OR "QA Automation" OR "SDET" remote'
     enabled: true
 
-  - name: Ashby — Solutions Architect
-    query: 'site:jobs.ashbyhq.com "Solutions Architect" AI OR automation remote'
+  - name: Ashby — Quality Assurance
+    query: 'site:jobs.ashbyhq.com "Quality Assurance" OR "Quality Engineer" remote'
     enabled: true
 
-  - name: Ashby — AI Engineer
-    query: 'site:jobs.ashbyhq.com "AI Engineer" OR "LLM Engineer" OR "Forward Deployed" remote'
-    enabled: true
-
-  - name: Ashby — Agentic
-    query: 'site:jobs.ashbyhq.com "Agentic" OR "AI Agent" OR "Automation Architect" remote'
+  - name: Ashby — Test Automation
+    query: 'site:jobs.ashbyhq.com "Test Automation" OR "Test Engineer" OR "Automation Tester" remote'
     enabled: true
 
   # -- Greenhouse --
-  - name: Greenhouse — AI PM
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Product Manager" OR "Senior Product Manager" AI remote'
+  - name: Greenhouse — QA Engineer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "QA Engineer" OR "QA Automation" OR "SDET" remote'
     enabled: true
 
-  - name: Greenhouse — SA & FDE
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Solutions Architect" OR "Forward Deployed" AI remote'
+  - name: Greenhouse — Quality Assurance
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Quality Assurance" OR "Quality Engineer" remote'
     enabled: true
 
-  - name: Greenhouse — AI Engineer
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Engineer" OR "LLM" OR "Agentic" remote'
+  - name: Greenhouse — Test Automation
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Test Automation" OR "Test Engineer" OR "Automation Tester" remote'
     enabled: true
 
   # -- Lever --
-  - name: Lever — AI PM
-    query: 'site:jobs.lever.co "AI Product Manager" OR "Solutions Architect" AI remote'
-    enabled: true
-
-  - name: Lever — AI Roles
-    query: 'site:jobs.lever.co "AI Engineer" OR "Agentic" OR "LLMOps" OR "Automation" remote'
+  - name: Lever — QA & Test Automation
+    query: 'site:jobs.lever.co "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET" remote'
     enabled: true
 
   # -- Wellfound (startups) --
-  - name: Wellfound — AI PM
-    query: 'site:wellfound.com "AI Product Manager" OR "AI Solutions" remote'
+  - name: Wellfound — QA & Testing
+    query: 'site:wellfound.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" remote'
     enabled: true
 
   # -- Workable --
-  - name: Workable — AI Roles
-    query: 'site:apply.workable.com "AI" "Product Manager" OR "Solutions Architect" OR "AI Engineer" remote'
-    enabled: true
-
-  # -- No-Code / Low-Code / Automation --
-  - name: Ashby — No-Code & Automation
-    query: 'site:jobs.ashbyhq.com "no-code" OR "low-code" OR "automation engineer" OR "n8n" OR "Make" OR "Airtable" remote senior'
-    enabled: true
-
-  - name: Greenhouse — No-Code & Automation
-    query: 'site:job-boards.greenhouse.io "no-code" OR "low-code" OR "automation engineer" OR "business systems" senior remote'
-    enabled: true
-
-  - name: GTM Engineer — All portals
-    query: '"GTM Engineer" OR "RevOps Engineer" OR "Growth Engineer" automation Airtable OR Make OR Clay remote'
-    enabled: true
-
-  # -- Voice AI & Conversational AI --
-  - name: Voice AI — FDE & SA
-    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "Voice AI" OR "Conversational AI" OR "Speech" "Solutions" OR "Forward Deployed" OR "Customer Engineer"'
-    enabled: true
-
-  - name: Voice AI — AI Engineer
-    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "Voice" OR "Speech" "AI Engineer" OR "Deployment" OR "Integration"'
-    enabled: true
-
-  # -- Contact Center AI --
-  - name: Contact Center AI — SA & SE
-    query: '"contact center" OR "customer service" "AI" "Solutions Architect" OR "Solutions Engineer" OR "Forward Deployed" remote'
-    enabled: true
-
-  # -- FDE specific (cross-portal) --
-  - name: FDE & Deployed Engineer — All portals
-    query: '"Forward Deployed Engineer" OR "Deployed Engineer" OR "Deployment Engineer" AI site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
-    enabled: true
-
-  # -- RemoteFront (aggregator) --
-  - name: RemoteFront — AI & Automation
-    query: 'site:remotefront.com "AI Engineer" OR "Solutions Engineer" OR "Automation" OR "LLM" OR "Agent" remote'
+  - name: Workable — QA Roles
+    query: 'site:apply.workable.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET" remote'
     enabled: true
 
   # -- Remote-friendly Europe boards --
 
-  - name: Remotive — AI/DevRel/SA/FDE
-    query: 'site:remotive.com "AI Engineer" OR "Developer Advocate" OR "Solutions Architect" OR "Forward Deployed" OR "DevRel" Europe'
+  - name: Remotive — QA & Testing
+    query: 'site:remotive.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET" remote'
     enabled: true
 
-  - name: WeWorkRemotely — AI & DX
-    query: 'site:weworkremotely.com "AI" OR "DevRel" OR "Solutions Engineer" OR "Forward Deployed" OR "Founding Engineer"'
+  - name: WeWorkRemotely — QA & Testing
+    query: 'site:weworkremotely.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  - name: Working Nomads — AI/DevRel/SA
-    query: 'site:workingnomads.com "AI Engineer" OR "Developer Advocate" OR "Solutions Architect" OR "Forward Deployed"'
+  - name: Working Nomads — QA & Testing
+    query: 'site:workingnomads.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  - name: EU Remote Jobs — AI/DevRel/SA
-    query: 'site:euremotejobs.com "AI" OR "DevRel" OR "Solutions Architect" OR "Forward Deployed" OR "Founding Engineer"'
+  - name: EU Remote Jobs — QA & Testing
+    query: 'site:euremotejobs.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  - name: RemoteOK — AI/DevRel/SA
-    query: 'site:remoteok.com "AI Engineer" OR "Developer Advocate" OR "Solutions Architect" OR "Forward Deployed" OR "Founding Engineer"'
+  - name: RemoteOK — QA & Testing
+    query: 'site:remoteok.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  # -- Specialized AI / Dev-Tools / FDE boards --
+  # -- Specialized / global aggregators --
 
-  - name: ai-jobs.net — DevRel/SA/FDE
-    query: 'site:ai-jobs.net "Developer Advocate" OR "Solutions Architect" OR "Forward Deployed" OR "DevRel" remote Europe'
+  - name: ai-jobs.net — QA & Testing
+    query: 'site:ai-jobs.net "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET" remote'
     enabled: true
 
-  - name: ai-jobs.net — Founding/Applied AI
-    query: 'site:ai-jobs.net "Founding Engineer" OR "Applied AI Engineer" OR "Founding" remote'
+  - name: YC Jobs — QA & Testing
+    query: 'site:ycombinator.com/jobs OR site:workatastartup.com "QA Engineer" OR "Quality Assurance" OR "SDET" OR "Test Automation" remote'
     enabled: true
 
-  - name: fwddeploy.com — Forward Deployed roles
-    query: 'site:fwddeploy.com "Forward Deployed" OR "Deployed Engineer" remote Europe OR EMEA'
+  - name: Himalayas — QA & Testing
+    query: 'site:himalayas.app "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET" remote'
     enabled: true
 
-  - name: YC Jobs — DevRel/SA/FDE/Founding
-    query: 'site:ycombinator.com/jobs OR site:workatastartup.com "Forward Deployed" OR "Developer Advocate" OR "Founding Engineer" OR "Solutions Architect" remote'
+  - name: HN Who's Hiring — QA & Testing
+    query: 'site:news.ycombinator.com OR site:hnrss.org "QA Engineer" OR "Quality Assurance" OR "SDET" OR "Test Automation" remote'
     enabled: true
 
-  - name: YC Jobs — Applied AI
-    query: 'site:workatastartup.com "Applied AI" OR "AI Engineer" OR "AI Agent" remote Europe'
+  # -- Spanish market --
+
+  - name: Manfred — QA & Testing España
+    query: 'site:getmanfred.com/en/job-offers "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  # -- Spanish market specialized (high-value for Madrid/Barcelona-based candidates) --
-
-  - name: Manfred — Tech Senior España
-    query: 'site:getmanfred.com/en/job-offers "Solutions Architect" OR "DevRel" OR "Forward Deployed" OR "AI Engineer" OR "Founding"'
+  - name: Tecnoempleo — QA & Testing
+    query: 'site:tecnoempleo.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
-  - name: Manfred — Remote AI/Senior
-    query: 'site:getmanfred.com "remote" "AI" OR "Senior" OR "Staff" OR "Lead"'
-    enabled: true
-
-  - name: Tecnoempleo — España IT
-    query: 'site:tecnoempleo.com "AI Engineer" OR "Solutions Architect" OR "DevRel" OR "Forward Deployed" OR "Founding Engineer"'
-    enabled: true
-
-  - name: Tecnoempleo — Remoto Senior
-    query: 'site:tecnoempleo.com "remoto" OR "remote" Senior "AI" OR "Architect" OR "Lead"'
-    enabled: true
-
-  - name: JobFluent — Spain startups
-    query: 'site:jobfluent.com Madrid OR Barcelona "AI" OR "Engineer" OR "Solutions" OR "DevRel"'
-    enabled: true
-
-  - name: Welcome to the Jungle — Spain tech
-    query: 'site:welcometothejungle.com Spain OR Madrid OR Barcelona "AI Engineer" OR "Solutions Architect" OR "DevRel" OR "Forward Deployed"'
-    enabled: true
-
-  # -- DevRel-specific boards --
-
-  - name: DevRelX Jobs
-    query: 'site:devrelx.com/jobs remote OR Europe OR EMEA'
-    enabled: true
-
-  - name: TrueUp — DevRel roles
-    query: 'site:trueup.io/devrel OR site:trueup.io "Developer Advocate" OR "DevRel" remote Europe'
-    enabled: true
-
-  - name: Remote Rocketship — DevRel
-    query: 'site:remoterocketship.com/jobs/developer-relations OR site:remoterocketship.com "DevRel" remote'
-    enabled: true
-
-  - name: DevRel Job board
-    query: 'site:devreljob.com remote OR Europe OR EMEA'
-    enabled: true
-
-  # -- European / global aggregators --
-
-  - name: Himalayas — Remote AI/Dev-tools
-    query: 'site:himalayas.app "AI Engineer" OR "Solutions Architect" OR "Developer Advocate" OR "Forward Deployed" OR "Founding Engineer" Europe'
-    enabled: true
-
-  - name: Jooble — España Tech Senior
-    query: 'site:jooble.org "AI Engineer" OR "Solutions Architect" OR "DevRel" Madrid OR remote España'
-    enabled: true
-
-  - name: EU Data Jobs — AI/ML Europe
-    query: 'site:eudatajobs.com "AI" OR "ML" OR "Data" "Engineer" OR "Architect" remote Europe'
-    enabled: true
-
-  - name: HN Who's Hiring — Remote AI
-    query: 'site:news.ycombinator.com OR site:hnrss.org "AI Engineer" OR "Forward Deployed" OR "DevRel" OR "Founding Engineer" remote'
+  - name: Welcome to the Jungle — QA & Testing
+    query: 'site:welcometothejungle.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     enabled: true
 
 # -- Tracked companies --
@@ -311,7 +199,7 @@ tracked_companies:
   - name: OpenAI
     careers_url: https://openai.com/careers
     scan_method: websearch
-    scan_query: 'site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"'
+    scan_query: 'site:openai.com/careers "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     enabled: true
 
   # -- Voice AI & Conversational AI --
@@ -350,7 +238,7 @@ tracked_companies:
   - name: Deepgram
     careers_url: https://jobs.ashbyhq.com/deepgram
     scan_method: websearch
-    scan_query: 'site:deepgram.com/careers OR "deepgram" "Solutions" OR "AI Engineer" site:jobs.ashbyhq.com'
+    scan_query: 'site:deepgram.com/careers OR "deepgram" "QA" OR "Quality Assurance" OR "Test" site:jobs.ashbyhq.com'
     notes: "STT/TTS APIs."
     enabled: true
 
@@ -373,7 +261,7 @@ tracked_companies:
   - name: Retool
     careers_url: https://retool.com/careers
     scan_method: websearch
-    scan_query: 'site:retool.com/careers "Deployed" OR "AI" OR "Solutions"'
+    scan_query: 'site:retool.com/careers "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "London. Popularized Deployed Engineer role."
     enabled: true
 
@@ -418,28 +306,28 @@ tracked_companies:
   - name: Ada
     careers_url: https://job-boards.greenhouse.io/ada
     scan_method: websearch
-    scan_query: '"ada.cx" OR "ada" "AI" "Solutions" OR "Engineer" site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io'
+    scan_query: '"ada.cx" OR "ada" "QA" OR "Quality Assurance" OR "Test Engineer" site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io'
     notes: "Toronto + remote. AI customer service."
     enabled: true
 
   - name: LivePerson
     careers_url: https://liveperson.com/company/careers
     scan_method: websearch
-    scan_query: 'site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io'
+    scan_query: 'site:liveperson.com/careers OR "liveperson" "QA" OR "Quality Assurance" OR "Test" site:job-boards.greenhouse.io'
     notes: "Remote EMEA. Conversational AI enterprise."
     enabled: true
 
   - name: Sierra
     careers_url: https://jobs.ashbyhq.com/sierra
     scan_method: websearch
-    scan_query: '"sierra.ai" "AI" "Forward Deployed" OR "Applied" OR "Solutions" site:jobs.ashbyhq.com'
+    scan_query: '"sierra.ai" "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET" site:jobs.ashbyhq.com'
     notes: "Bret Taylor (ex-CEO Salesforce). AI customer agents."
     enabled: true
 
   - name: Decagon
     careers_url: https://jobs.ashbyhq.com/decagon
     scan_method: websearch
-    scan_query: '"decagon" "AI" "Forward Deployed" OR "Solutions" site:jobs.ashbyhq.com'
+    scan_query: '"decagon" "QA" OR "Quality Assurance" OR "Test" site:jobs.ashbyhq.com'
     notes: "AI customer support agents."
     enabled: true
 
@@ -448,42 +336,42 @@ tracked_companies:
   - name: Talkdesk
     careers_url: https://www.talkdesk.com/careers
     scan_method: websearch
-    scan_query: 'site:talkdesk.com/careers "AI" OR "Solutions Architect" OR "AI Engineer"'
+    scan_query: 'site:talkdesk.com/careers "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     notes: "Lisbon. Contact center AI. EMEA friendly."
     enabled: true
 
   - name: Twilio
     careers_url: https://www.twilio.com/en-us/company/jobs
     scan_method: websearch
-    scan_query: 'site:twilio.com/company/jobs "AI" OR "Voice" "Solutions" OR "Architect"'
+    scan_query: 'site:twilio.com/company/jobs "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "Voice/messaging infrastructure."
     enabled: true
 
   - name: Dialpad
     careers_url: https://www.dialpad.com/careers
     scan_method: websearch
-    scan_query: '"dialpad" "AI" "Solutions" OR "Engineer" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    scan_query: '"dialpad" "QA" OR "Quality Assurance" OR "Test" OR "SDET" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
     notes: "Voice AI for business comms."
     enabled: true
 
   - name: Gong
     careers_url: https://www.gong.io/careers
     scan_method: websearch
-    scan_query: 'site:gong.io/careers "AI" OR "Solutions" OR "Architect"'
+    scan_query: 'site:gong.io/careers "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     notes: "Revenue intelligence with voice AI."
     enabled: true
 
   - name: Genesys
     careers_url: https://www.genesys.com/careers
     scan_method: websearch
-    scan_query: 'site:genesys.com/careers "AI" "Solutions Architect" OR "AI Engineer"'
+    scan_query: 'site:genesys.com/careers "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     notes: "Contact center cloud + AI."
     enabled: true
 
   - name: Salesforce
     careers_url: https://careers.salesforce.com
     scan_method: websearch
-    scan_query: 'site:careers.salesforce.com "Forward Deployed" OR "AI Engineer" OR "Agentforce"'
+    scan_query: 'site:careers.salesforce.com "QA Engineer" OR "Quality Assurance" OR "Test Automation" OR "SDET"'
     notes: "Agentforce = AI agents platform."
     enabled: true
 
@@ -492,21 +380,21 @@ tracked_companies:
   - name: Langfuse
     careers_url: https://langfuse.com/careers
     scan_method: websearch
-    scan_query: '"langfuse" careers OR jobs "engineer" OR "solutions"'
+    scan_query: '"langfuse" careers OR jobs "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "Berlin. LLMOps / observability."
     enabled: true
 
   - name: Lindy
     careers_url: https://jobs.ashbyhq.com/lindy
     scan_method: websearch
-    scan_query: '"lindy.ai" "AI" "Forward Deployed" OR "Solutions" site:jobs.ashbyhq.com'
+    scan_query: '"lindy.ai" "QA" OR "Quality Assurance" OR "Test" site:jobs.ashbyhq.com'
     notes: "AI agent management platform."
     enabled: true
 
   - name: Cognigy
     careers_url: https://careers.cognigy.com
     scan_method: websearch
-    scan_query: '"cognigy" careers "AI" OR "Solutions" OR "Engineer"'
+    scan_query: '"cognigy" careers "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     notes: "Dusseldorf EMEA. Conversational AI enterprise."
     enabled: true
 
@@ -535,7 +423,7 @@ tracked_companies:
   - name: Make.com (Celonis)
     careers_url: https://www.make.com/en/careers
     scan_method: websearch
-    scan_query: 'site:make.com/en/careers OR "make.com" "engineer" OR "solutions" site:jobs.ashbyhq.com'
+    scan_query: 'site:make.com/en/careers OR "make.com" "QA" OR "Quality Assurance" OR "Test" site:jobs.ashbyhq.com'
     notes: "Celonis parent company. Automation platform."
     enabled: true
 
@@ -831,14 +719,14 @@ tracked_companies:
   - name: Perplexity
     careers_url: https://jobs.ashbyhq.com/perplexity
     scan_method: websearch
-    scan_query: ‘site:jobs.ashbyhq.com/perplexity "AI" OR "Applied AI" OR "Forward Deployed" OR "Engineer"’
+    scan_query: 'site:jobs.ashbyhq.com/perplexity "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET"'
     notes: "AI-native search and enterprise AI platform."
     enabled: true
 
   - name: Clay Labs
     careers_url: https://jobs.ashbyhq.com/claylabs
     scan_method: websearch
-    scan_query: 'site:jobs.ashbyhq.com/claylabs "AI" OR "Developer Experience" OR "Growth" OR "Engineer"'
+    scan_query: 'site:jobs.ashbyhq.com/claylabs "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "AI-native GTM and workflow automation platform."
     enabled: true
 
@@ -857,7 +745,7 @@ tracked_companies:
   - name: WorkOS
     careers_url: https://jobs.ashbyhq.com/workos
     scan_method: websearch
-    scan_query: 'site:jobs.ashbyhq.com/workos "Solutions Engineer" OR "Developer Success" OR "Engineer"'
+    scan_query: 'site:jobs.ashbyhq.com/workos "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "Developer tools and enterprise-ready auth/platform APIs."
     enabled: true
 
@@ -900,13 +788,13 @@ tracked_companies:
   - name: Zep AI
     careers_url: https://www.getzep.com/careers
     scan_method: websearch
-    scan_query: '"Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com'
+    scan_query: '"Zep" "QA" OR "Quality Assurance" OR "Test Engineer" OR "SDET" site:workatastartup.com OR site:getzep.com'
     notes: "Context engineering platform for AI agents. YC W24. Lead FDE + DevRel Lead roles. US-only currently."
     enabled: true
 
   - name: Maxim AI
     careers_url: https://www.getmaxim.ai/careers
     scan_method: websearch
-    scan_query: '"Maxim AI" OR "getmaxim" careers "engineer" OR "product"'
+    scan_query: '"Maxim AI" OR "getmaxim" careers "QA" OR "Quality Assurance" OR "Test" OR "SDET"'
     notes: "AI evaluation and observability platform. Bangalore-based, mostly on-site."
     enabled: true
