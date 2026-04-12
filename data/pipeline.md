@@ -1088,4 +1088,6 @@
 - [ ] https://jobs.ashbyhq.com/perplexity/3b349a2f-360e-44e6-a57d-6a87bc3016a7 | Perplexity | Search Quality Analyst 
 - [ ] https://jobs.lever.co/mistral/03918386-cb56-4e4d-afa8-1f8b7676a4a6 | Mistral AI | Software Engineer, QA
 
+- [ ] https://n26.com/en-eu/careers/positions/7547200?gh_jid=7547200 | N26 | Quality Engineer
+
 ## Procesadas
