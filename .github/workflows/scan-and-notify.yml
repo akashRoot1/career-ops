@@ -1,0 +1,99 @@
+# scan-and-notify.yml
+#
+# Scans job portals for new offers and sends a summary email.
+# Works alongside daily-digest.yml — the digest emails your pipeline
+# health every morning; this workflow finds *new* offers and emails them.
+#
+# Triggers:
+#   - Manual:    Actions tab → "Run workflow"
+#   - Scheduled: Every 3 days at 07:00 UTC (configurable below)
+#
+# One-time setup — add these repository secrets (Settings → Secrets → Actions):
+#   GMAIL_USER         — Gmail address that sends the email (e.g. you@gmail.com)
+#   GMAIL_APP_PASSWORD — Gmail App Password (NOT your Google login password)
+#                        Create one at: https://myaccount.google.com/apppasswords
+#   DIGEST_TO          — recipient email address
+#
+# Data files (portals.yml, data/scan-history.tsv, data/pipeline.md) are stored
+# directly in your repo so scan history persists between runs.  The workflow
+# force-adds them (bypassing .gitignore) and pushes a commit after each scan.
+#
+# If portals.yml is not committed, the workflow falls back to the example file.
+
+name: Scan & Notify
+
+on:
+  schedule:
+    # Every 3 days at 07:00 UTC — adjust to your preference
+    - cron: '0 7 */3 * *'
+  workflow_dispatch:   # manual trigger from the Actions tab
+
+permissions:
+  contents: write   # needed to commit scan history back to the repo
+
+jobs:
+  scan:
+    name: Scan portals and email new offers
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Bootstrap data files
+        run: |
+          # Fall back to example portals if portals.yml was not committed
+          [ -f portals.yml ] || cp templates/portals.example.yml portals.yml
+
+          mkdir -p data
+
+          # Create minimal pipeline if missing
+          if [ ! -f data/pipeline.md ]; then
+            printf '# Pipeline\n\n## Pendientes\n\n## Procesadas\n' > data/pipeline.md
+          fi
+
+          # Create minimal applications tracker if missing (digest reads this)
+          if [ ! -f data/applications.md ]; then
+            printf '# Applications Tracker\n\n| # | Date | Company | Role | Score | Status | PDF | Report | Notes |\n|---|------|---------|------|-------|--------|-----|--------|-------|\n' > data/applications.md
+          fi
+
+          # Create scan history header if missing
+          if [ ! -f data/scan-history.tsv ]; then
+            printf 'url\tfirst_seen\tportal\ttitle\tcompany\tstatus\n' > data/scan-history.tsv
+          fi
+
+          # Create empty follow-ups file if missing (digest reads this)
+          [ -f data/follow-ups.md ] || touch data/follow-ups.md
+
+      - name: Scan job portals and send email
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO:          ${{ secrets.DIGEST_TO }}
+        run: node scan.mjs --email
+
+      - name: Commit scan history
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Force-add data files (they are in .gitignore locally but we persist
+          # them in the repo so scan history survives between workflow runs).
+          git add -f data/scan-history.tsv data/pipeline.md
+
+          if git diff --cached --quiet; then
+            echo "No new offers — nothing to commit."
+          else
+            git commit -m "chore: scan results $(date -u +%Y-%m-%d)"
+            git push
+          fi
