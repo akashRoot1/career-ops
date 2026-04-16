@@ -1096,4 +1096,7 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4020350008 | Anthropic | Performance Engineer
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4926227008 | Anthropic | Performance Engineer, GPU
 
+- [ ] https://helsing.ai/jobs/4671451101?gh_jid=4671451101 | Helsing | Flight Test Manager 
+- [ ] https://careers.hellofresh.com/global/en/job/7809227?gh_jid=7809227 | HelloFresh | FSQA Technician
+
 ## Procesadas
