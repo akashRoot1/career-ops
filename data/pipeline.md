@@ -1099,4 +1099,6 @@
 - [ ] https://helsing.ai/jobs/4671451101?gh_jid=4671451101 | Helsing | Flight Test Manager 
 - [ ] https://careers.hellofresh.com/global/en/job/7809227?gh_jid=7809227 | HelloFresh | FSQA Technician
 
+- [ ] https://sumup.com/careers/positions/8398137002?gh_jid=8398137002 | SumUp | Vendor operations quality analyst
+
 ## Procesadas
