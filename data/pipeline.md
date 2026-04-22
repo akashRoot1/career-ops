@@ -1101,4 +1101,6 @@
 
 - [ ] https://sumup.com/careers/positions/8398137002?gh_jid=8398137002 | SumUp | Vendor operations quality analyst
 
+- [ ] https://careers.hellofresh.com/global/en/job/7818355?gh_jid=7818355 | HelloFresh | FSQA Supervisor
+
 ## Procesadas
