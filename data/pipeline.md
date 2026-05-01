@@ -1103,4 +1103,7 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/7818355?gh_jid=7818355 | HelloFresh | FSQA Supervisor
 
+- [ ] https://careers.hellofresh.com/global/en/job/7866849?gh_jid=7866849 | HelloFresh | FSQA Technician
+- [ ] https://jobs.lever.co/spotify/300a0843-1d8a-4048-8df1-4433cbdf2774 | Spotify | Annotation QA Analyst - Content Platform
+
 ## Procesadas
