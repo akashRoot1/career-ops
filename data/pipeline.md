@@ -1106,4 +1106,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/7866849?gh_jid=7866849 | HelloFresh | FSQA Technician
 - [ ] https://jobs.lever.co/spotify/300a0843-1d8a-4048-8df1-4433cbdf2774 | Spotify | Annotation QA Analyst - Content Platform
 
+- [ ] https://careers.hellofresh.com/global/en/job/7651743?gh_jid=7651743 | HelloFresh | Associate Quality Manager
+
 ## Procesadas
