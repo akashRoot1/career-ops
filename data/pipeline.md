@@ -1108,4 +1108,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/7651743?gh_jid=7651743 | HelloFresh | Associate Quality Manager
 
+- [ ] https://careers.hellofresh.com/global/en/job/7869765?gh_jid=7869765 | HelloFresh | Automation Engineer (all genders)
+
 ## Procesadas
