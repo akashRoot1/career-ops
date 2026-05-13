@@ -1110,4 +1110,9 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/7869765?gh_jid=7869765 | HelloFresh | Automation Engineer (all genders)
 
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5173089008 | RunPod | Technical Content QA Contractor, Programmatic SEO and AEO
+- [ ] https://helsing.ai/jobs/4863766101?gh_jid=4863766101 | Helsing | Hardware Test Engineer - Robotics
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7731772003?gh_jid=7731772003 | Celonis | Senior Integration & Automation Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/6963655?gh_jid=6963655 | HelloFresh | ISQA Stock Controller - Days
+
 ## Procesadas
