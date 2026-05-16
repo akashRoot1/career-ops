@@ -1115,4 +1115,9 @@
 - [ ] https://job-boards.greenhouse.io/celonis/jobs/7731772003?gh_jid=7731772003 | Celonis | Senior Integration & Automation Engineer
 - [ ] https://careers.hellofresh.com/global/en/job/6963655?gh_jid=6963655 | HelloFresh | ISQA Stock Controller - Days
 
+- [ ] https://jobs.ashbyhq.com/vapi/94e93b56-c7ac-4765-9ffb-aefcbe0bb795 | Vapi | Member of Technical Staff, QA
+- [ ] https://careers.hellofresh.com/global/en/job/7916857?gh_jid=7916857 | HelloFresh | FSQA Technologist
+- [ ] https://careers.hellofresh.com/global/en/job/7920836?gh_jid=7920836 | HelloFresh | QA Technologist 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8545371002 | Wayve | Staff ML Performance Engineer (Inference Optimisation)
+
 ## Procesadas
