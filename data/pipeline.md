@@ -1120,4 +1120,7 @@
 - [ ] https://careers.hellofresh.com/global/en/job/7920836?gh_jid=7920836 | HelloFresh | QA Technologist 
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8545371002 | Wayve | Staff ML Performance Engineer (Inference Optimisation)
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5224564008 | Anthropic | Performance Engineer, Inference Systems
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8555774002 | Wayve | System Test Engineer, HIL
+
 ## Procesadas
