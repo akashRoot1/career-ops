@@ -1123,4 +1123,6 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5224564008 | Anthropic | Performance Engineer, Inference Systems
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8555774002 | Wayve | System Test Engineer, HIL
 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8560126002 | Wayve | Vehicle Validation Engineer
+
 ## Procesadas
