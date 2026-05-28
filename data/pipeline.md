@@ -1125,4 +1125,7 @@
 
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8560126002 | Wayve | Vehicle Validation Engineer
 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8556042002 | Wayve | Senior ML Performance Engineer (Inference Optimisation)
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8561846002 | Wayve | Vehicle Validation Engineer
+
 ## Procesadas
