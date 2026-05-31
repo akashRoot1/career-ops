@@ -1128,4 +1128,9 @@
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8556042002 | Wayve | Senior ML Performance Engineer (Inference Optimisation)
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8561846002 | Wayve | Vehicle Validation Engineer
 
+- [ ] https://job-boards.eu.greenhouse.io/polyai/jobs/4878638101 | PolyAI | Senior Software Quality Engineer
+- [ ] https://jobs.ashbyhq.com/cohere/74856e86-8eeb-46ea-bf60-b4b4ad3352ae | Cohere | Senior Search Applications Performance Engineer
+- [ ] https://helsing.ai/jobs/4872445101?gh_jid=4872445101 | Helsing | Quality Assurance Engineer - Development 
+- [ ] https://careers.hellofresh.com/global/en/job/7423946?gh_jid=7423946 | HelloFresh | Market Automation Engineer (f/m/x)
+
 ## Procesadas
