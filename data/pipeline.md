@@ -1133,4 +1133,12 @@
 - [ ] https://helsing.ai/jobs/4872445101?gh_jid=4872445101 | Helsing | Quality Assurance Engineer - Development 
 - [ ] https://careers.hellofresh.com/global/en/job/7423946?gh_jid=7423946 | HelloFresh | Market Automation Engineer (f/m/x)
 
+- [ ] https://helsing.ai/jobs/4879122101?gh_jid=4879122101 | Helsing | Ground Test Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/7963186?gh_jid=7963186 | HelloFresh | [DACH MAG] Working Student FSQA and Quality Assurance (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7967787?gh_jid=7967787 | HelloFresh | Director, Value Stream FSQA
+- [ ] https://careers.hellofresh.com/global/en/job/7980243?gh_jid=7980243 | HelloFresh | Food Safety & Quality Assurance Technician
+- [ ] https://careers.hellofresh.com/global/en/job/7978710?gh_jid=7978710 | HelloFresh | FSQA Manager – Plant-Based Alternatives & Eggs (M/F/X)
+- [ ] https://careers.hellofresh.com/global/en/job/7978122?gh_jid=7978122 | HelloFresh |  FSQA Team Lead - Fresh & Supplier/Process Management 
+- [ ] https://careers.hellofresh.com/global/en/job/7972623?gh_jid=7972623 | HelloFresh | [US HQ] Senior Expert, Value Stream FSQA
+
 ## Procesadas
