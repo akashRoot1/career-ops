@@ -1141,4 +1141,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/7978122?gh_jid=7978122 | HelloFresh |  FSQA Team Lead - Fresh & Supplier/Process Management 
 - [ ] https://careers.hellofresh.com/global/en/job/7972623?gh_jid=7972623 | HelloFresh | [US HQ] Senior Expert, Value Stream FSQA
 
+- [ ] https://careers.hellofresh.com/global/en/job/7979048?gh_jid=7979048 | HelloFresh | Quality Assurance Supervisor
+
 ## Procesadas
