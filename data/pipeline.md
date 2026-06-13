@@ -1143,4 +1143,10 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/7979048?gh_jid=7979048 | HelloFresh | Quality Assurance Supervisor
 
+- [ ] https://jobs.lever.co/mistral/e43db227-9edf-47e6-8a86-f54adb9686af | Mistral AI | Pentester, Offensive Forward Deployment Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/7976578?gh_jid=7976578 | HelloFresh |  Senior FSQA Manager p (x/f/m)
+- [ ] https://careers.hellofresh.com/global/en/job/7988877?gh_jid=7988877 | HelloFresh | Team Lead FSQA (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7996932?gh_jid=7996932 | HelloFresh | Teamleitung FSQA (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7991098?gh_jid=7991098 | HelloFresh | [US-DC] Quality Assurance Supervisor
+
 ## Procesadas
