@@ -1149,4 +1149,8 @@
 - [ ] https://careers.hellofresh.com/global/en/job/7996932?gh_jid=7996932 | HelloFresh | Teamleitung FSQA (all genders)
 - [ ] https://careers.hellofresh.com/global/en/job/7991098?gh_jid=7991098 | HelloFresh | [US-DC] Quality Assurance Supervisor
 
+- [ ] https://helsing.ai/jobs/4897990101?gh_jid=4897990101 | Helsing | Environmental Test Engineer – Generalist and Lethality Package 
+- [ ] https://careers.hellofresh.com/global/en/job/7846756?gh_jid=7846756 | HelloFresh | Automation Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/7989271?gh_jid=7989271 | HelloFresh | Team Lead Supplier FSQA (all genders)
+
 ## Procesadas
