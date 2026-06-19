@@ -1153,4 +1153,7 @@
 - [ ] https://careers.hellofresh.com/global/en/job/7846756?gh_jid=7846756 | HelloFresh | Automation Engineer
 - [ ] https://careers.hellofresh.com/global/en/job/7989271?gh_jid=7989271 | HelloFresh | Team Lead Supplier FSQA (all genders)
 
+- [ ] https://careers.hellofresh.com/global/en/job/8014337?gh_jid=8014337 | HelloFresh | FSQA Lead 
+- [ ] https://careers.hellofresh.com/global/en/job/7972625?gh_jid=7972625 | HelloFresh | [US HQ] Senior Expert, Value Stream FSQA
+
 ## Procesadas
