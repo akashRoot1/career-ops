@@ -1156,4 +1156,11 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8014337?gh_jid=8014337 | HelloFresh | FSQA Lead 
 - [ ] https://careers.hellofresh.com/global/en/job/7972625?gh_jid=7972625 | HelloFresh | [US HQ] Senior Expert, Value Stream FSQA
 
+- [ ] https://careers.hellofresh.com/global/en/job/7974300?gh_jid=7974300 | HelloFresh | Analyst, ICQA Operational Excellence
+- [ ] https://careers.hellofresh.com/global/en/job/7974294?gh_jid=7974294 | HelloFresh | Analyst, ICQA Operational Excellence 
+- [ ] https://careers.hellofresh.com/global/en/job/8009998?gh_jid=8009998 | HelloFresh | FSQA Manager (x/f/m)
+- [ ] https://careers.hellofresh.com/global/en/job/8025063?gh_jid=8025063 | HelloFresh | Lead Automation Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/8020924?gh_jid=8020924 | HelloFresh | Site QA/QC Specialist (f/m/x)
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8601206002 | Wayve | Quality Assurance and Training Coordinator
+
 ## Procesadas
