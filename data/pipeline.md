@@ -1163,4 +1163,7 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8020924?gh_jid=8020924 | HelloFresh | Site QA/QC Specialist (f/m/x)
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8601206002 | Wayve | Quality Assurance and Training Coordinator
 
+- [ ] https://careers.hellofresh.com/global/en/job/8025059?gh_jid=8025059 | HelloFresh | Associate Director, FSQA
+- [ ] https://careers.hellofresh.com/global/en/job/8025055?gh_jid=8025055 | HelloFresh | FSQA Supervisor
+
 ## Procesadas
