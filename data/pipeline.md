@@ -1166,4 +1166,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8025059?gh_jid=8025059 | HelloFresh | Associate Director, FSQA
 - [ ] https://careers.hellofresh.com/global/en/job/8025055?gh_jid=8025055 | HelloFresh | FSQA Supervisor
 
+- [ ] https://getyourguide.careers/jobs/8043448?gh_jid=8043448 | GetYourGuide | Quality Assurance Specialist
+
 ## Procesadas
