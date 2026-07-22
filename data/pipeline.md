@@ -1168,4 +1168,6 @@
 
 - [ ] https://getyourguide.careers/jobs/8043448?gh_jid=8043448 | GetYourGuide | Quality Assurance Specialist
 
+- [ ] https://jobs.ashbyhq.com/n8n/5afbde12-defb-457d-a21e-584347141436 | n8n | IT Systems & Automation Engineer
+
 ## Procesadas
