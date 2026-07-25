@@ -1170,4 +1170,9 @@
 
 - [ ] https://jobs.ashbyhq.com/n8n/5afbde12-defb-457d-a21e-584347141436 | n8n | IT Systems & Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8081523?gh_jid=8081523 | HelloFresh | FSQA Technician
+- [ ] https://careers.hellofresh.com/global/en/job/8081242?gh_jid=8081242 | HelloFresh | [HELLOCONNECT] Quality Assurance Specialist
+- [ ] https://careers.hellofresh.com/global/en/job/8076104?gh_jid=8076104 | HelloFresh | QA Systems Officer
+- [ ] https://careers.hellofresh.com/global/en/job/8079790?gh_jid=8079790 | HelloFresh | Quality Assurance Associate
+
 ## Procesadas
