@@ -1175,4 +1175,8 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8076104?gh_jid=8076104 | HelloFresh | QA Systems Officer
 - [ ] https://careers.hellofresh.com/global/en/job/8079790?gh_jid=8079790 | HelloFresh | Quality Assurance Associate
 
+- [ ] https://n26.com/en-eu/careers/positions/8088356?gh_jid=8088356 | N26 | Senior Software Quality Engineer
+- [ ] https://jobs.ashbyhq.com/supabase/98ef6a11-9898-4960-9931-1264285849f3 | Supabase | Performance Engineer - Performance Analysis & Tuning
+- [ ] https://jobs.ashbyhq.com/supabase/11beb619-0c25-4b11-9818-3f18e278c65b | Supabase | Performance Engineer - Benchmarking
+
 ## Procesadas
