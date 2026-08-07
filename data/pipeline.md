@@ -1179,4 +1179,8 @@
 - [ ] https://jobs.ashbyhq.com/supabase/98ef6a11-9898-4960-9931-1264285849f3 | Supabase | Performance Engineer - Performance Analysis & Tuning
 - [ ] https://jobs.ashbyhq.com/supabase/11beb619-0c25-4b11-9818-3f18e278c65b | Supabase | Performance Engineer - Benchmarking
 
+- [ ] https://jobs.ashbyhq.com/elevenlabs/5bcd3475-8e38-42f1-897a-fa010ee6f9bd | ElevenLabs | Automation Engineer - Influencers
+- [ ] https://helsing.ai/jobs/4947489101?gh_jid=4947489101 | Helsing | Multimodal Sensing Test Engineer 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8642805002 | Wayve | Staff ML Performance Engineer (Compiler)
+
 ## Procesadas
