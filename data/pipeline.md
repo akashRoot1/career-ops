@@ -1183,4 +1183,9 @@
 - [ ] https://helsing.ai/jobs/4947489101?gh_jid=4947489101 | Helsing | Multimodal Sensing Test Engineer 
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8642805002 | Wayve | Staff ML Performance Engineer (Compiler)
 
+- [ ] https://careers.hellofresh.com/global/en/job/8097766?gh_jid=8097766 | HelloFresh | Lead Automation Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/8102697?gh_jid=8102697 | HelloFresh | Senior FSQA Manager - PHF (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/8111616?gh_jid=8111616 | HelloFresh | Senior Marketing Automation Engineer (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/8100460?gh_jid=8100460 | HelloFresh | [US HQ] FSQA Manager, Quality Systems Compliance
+
 ## Procesadas
