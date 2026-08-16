@@ -1188,4 +1188,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8111616?gh_jid=8111616 | HelloFresh | Senior Marketing Automation Engineer (all genders)
 - [ ] https://careers.hellofresh.com/global/en/job/8100460?gh_jid=8100460 | HelloFresh | [US HQ] FSQA Manager, Quality Systems Compliance
 
+- [ ] https://careers.hellofresh.com/global/en/job/8097807?gh_jid=8097807 | HelloFresh | Senior Automation Engineer
+
 ## Procesadas
