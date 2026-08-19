@@ -1190,4 +1190,8 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8097807?gh_jid=8097807 | HelloFresh | Senior Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8141062?gh_jid=8141062 | HelloFresh | FSQA Specialist
+- [ ] https://careers.hellofresh.com/global/en/job/8132289?gh_jid=8132289 | HelloFresh | FSQA Supervisor (all genders)
+- [ ] https://jobs.lever.co/spotify/17a75d93-835d-40ce-b31e-0c381b49f40a | Spotify | Senior Product Quality Analyst - AI Voice
+
 ## Procesadas
