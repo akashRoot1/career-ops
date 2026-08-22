@@ -1194,4 +1194,10 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8132289?gh_jid=8132289 | HelloFresh | FSQA Supervisor (all genders)
 - [ ] https://jobs.lever.co/spotify/17a75d93-835d-40ce-b31e-0c381b49f40a | Spotify | Senior Product Quality Analyst - AI Voice
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5397596008 | Anthropic | Senior Manufacturing Quality Engineer, Data Center Power & Cooling
+- [ ] https://careers.hellofresh.com/global/en/job/8142932?gh_jid=8142932 | HelloFresh | Food Safety & Quality Assurance Technician
+- [ ] https://careers.hellofresh.com/global/en/job/8092439?gh_jid=8092439 | HelloFresh | FSQA Manager RTE (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/6359536?gh_jid=6359536 | HelloFresh | QA Technical Auditor - Nights
+- [ ] https://jobs.lever.co/spotify/c3f6ea23-97d0-4a9a-a9ad-04f1e745d916 | Spotify | Senior Product Quality Analyst - AI Voice
+
 ## Procesadas
