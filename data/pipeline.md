@@ -1200,4 +1200,8 @@
 - [ ] https://careers.hellofresh.com/global/en/job/6359536?gh_jid=6359536 | HelloFresh | QA Technical Auditor - Nights
 - [ ] https://jobs.lever.co/spotify/c3f6ea23-97d0-4a9a-a9ad-04f1e745d916 | Spotify | Senior Product Quality Analyst - AI Voice
 
+- [ ] https://jobs.ashbyhq.com/deepgram/4a6b5eb2-4720-4ec8-8d7d-4ae0f7bbe2cc | Deepgram | Software Test Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/8100461?gh_jid=8100461 | HelloFresh | FSQA Manager, Quality Systems Compliance
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8756182002 | Wayve | Triage Automation Engineer
+
 ## Procesadas
