@@ -1204,4 +1204,7 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8100461?gh_jid=8100461 | HelloFresh | FSQA Manager, Quality Systems Compliance
 - [ ] https://wayve.firststage.co/jobs?gh_jid=8756182002 | Wayve | Triage Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8159769?gh_jid=8159769 | HelloFresh | Food Safety & Quality Assurance Supervisor
+- [ ] https://careers.hellofresh.com/global/en/job/8171178?gh_jid=8171178 | HelloFresh | FSQA Technician (12 Months Contract)
+
 ## Procesadas
