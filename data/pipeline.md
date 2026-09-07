@@ -1207,4 +1207,7 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8159769?gh_jid=8159769 | HelloFresh | Food Safety & Quality Assurance Supervisor
 - [ ] https://careers.hellofresh.com/global/en/job/8171178?gh_jid=8171178 | HelloFresh | FSQA Technician (12 Months Contract)
 
+- [ ] https://careers.hellofresh.com/global/en/job/8164795?gh_jid=8164795 | HelloFresh | Area Manager I, FSQA
+- [ ] https://careers.hellofresh.com/global/en/job/8144065?gh_jid=8144065 | HelloFresh | Food Safety & Quality Assurance Supervisor
+
 ## Procesadas
