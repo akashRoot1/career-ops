@@ -1210,4 +1210,9 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8164795?gh_jid=8164795 | HelloFresh | Area Manager I, FSQA
 - [ ] https://careers.hellofresh.com/global/en/job/8144065?gh_jid=8144065 | HelloFresh | Food Safety & Quality Assurance Supervisor
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5418323008 | Anthropic | Performance Engineer, Inference Engine
+- [ ] https://helsing.ai/jobs/4967013101?gh_jid=4967013101 | Helsing | Senior Flight Test Engineer {PL}
+- [ ] https://careers.hellofresh.com/global/en/job/8187208?gh_jid=8187208 | HelloFresh | FSQA Technician
+- [ ] https://careers.hellofresh.com/global/en/job/8186456?gh_jid=8186456 | HelloFresh | [US-DC] Quality Assurance Lead
+
 ## Procesadas
