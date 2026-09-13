@@ -1215,4 +1215,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8187208?gh_jid=8187208 | HelloFresh | FSQA Technician
 - [ ] https://careers.hellofresh.com/global/en/job/8186456?gh_jid=8186456 | HelloFresh | [US-DC] Quality Assurance Lead
 
+- [ ] https://jobs.ashbyhq.com/deepgram/bf8ea79f-f380-467e-8349-ea1ea8281316 | Deepgram | People AI & Automation Engineer
+
 ## Procesadas
