@@ -1217,4 +1217,6 @@
 
 - [ ] https://jobs.ashbyhq.com/deepgram/bf8ea79f-f380-467e-8349-ea1ea8281316 | Deepgram | People AI & Automation Engineer
 
+- [ ] https://jobs.ashbyhq.com/legora/5b2b44f6-c330-439a-8a96-1b5865e28f5a | Legora | IT Automation Engineer
+
 ## Procesadas
