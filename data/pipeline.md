@@ -1219,4 +1219,6 @@
 
 - [ ] https://jobs.ashbyhq.com/legora/5b2b44f6-c330-439a-8a96-1b5865e28f5a | Legora | IT Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8191257?gh_jid=8191257 | HelloFresh | [US-DC] Senior Quality Manager
+
 ## Procesadas
