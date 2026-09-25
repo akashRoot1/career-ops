@@ -1221,4 +1221,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8191257?gh_jid=8191257 | HelloFresh | [US-DC] Senior Quality Manager
 
+- [ ] https://careers.hellofresh.com/global/en/job/8224604?gh_jid=8224604 | HelloFresh | FSQA Technician
+
 ## Procesadas
