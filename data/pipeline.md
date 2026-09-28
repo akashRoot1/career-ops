@@ -1223,4 +1223,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8224604?gh_jid=8224604 | HelloFresh | FSQA Technician
 
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7885808003?gh_jid=7885808003 | Celonis | AI Quality Engineer
+
 ## Procesadas
