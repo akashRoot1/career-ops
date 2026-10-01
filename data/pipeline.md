@@ -1225,4 +1225,11 @@
 
 - [ ] https://job-boards.greenhouse.io/celonis/jobs/7885808003?gh_jid=7885808003 | Celonis | AI Quality Engineer
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5438030008 | Anthropic | Research Engineer / Performance Engineer, RL Distributed Systems
+- [ ] https://helsing.ai/jobs/4988981101?gh_jid=4988981101 | Helsing | Senior Quality Engineer 
+- [ ] https://helsing.ai/jobs/4989465101?gh_jid=4989465101 | Helsing | Test Engineer - Environment
+- [ ] https://helsing.ai/jobs/4989531101?gh_jid=4989531101 | Helsing | Test Engineer - Ground 
+- [ ] https://careers.hellofresh.com/global/en/job/8239030?gh_jid=8239030 | HelloFresh | Quality Assurance Officer
+- [ ] https://careers.hellofresh.com/global/en/job/8202774?gh_jid=8202774 | HelloFresh | [US DC] Senior Automation Engineer
+
 ## Procesadas
