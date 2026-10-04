@@ -1232,4 +1232,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8239030?gh_jid=8239030 | HelloFresh | Quality Assurance Officer
 - [ ] https://careers.hellofresh.com/global/en/job/8202774?gh_jid=8202774 | HelloFresh | [US DC] Senior Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8205222?gh_jid=8205222 | HelloFresh | Automation Engineer
+
 ## Procesadas
