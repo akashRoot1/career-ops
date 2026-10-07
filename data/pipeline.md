@@ -1234,4 +1234,9 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8205222?gh_jid=8205222 | HelloFresh | Automation Engineer
 
+- [ ] https://careers.hellofresh.com/global/en/job/8207839?gh_jid=8207839 | HelloFresh | Food Safety & Quality Assurance Supervisor
+- [ ] https://careers.hellofresh.com/global/en/job/8259567?gh_jid=8259567 | HelloFresh | FSQA Technician
+- [ ] https://careers.hellofresh.com/global/en/job/8236558?gh_jid=8236558 | HelloFresh | Teamleitung Food Safety and Quality Assurance (all genders)
+- [ ] https://jobs.ashbyhq.com/perplexity/4b5e02a8-6a94-494d-9d49-037f2cfc144d | Perplexity | Member of Tehnical Staff (Senior QA Web)
+
 ## Procesadas
