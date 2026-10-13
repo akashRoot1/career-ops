@@ -1241,4 +1241,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8248941?gh_jid=8248941 | HelloFresh | FSQA Manager (12 month FTC)
 
+- [ ] https://careers.hellofresh.com/global/en/job/6180866?gh_jid=6180866 | HelloFresh | QA Technical Auditor
+
 ## Procesadas
