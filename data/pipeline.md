@@ -1243,4 +1243,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/6180866?gh_jid=6180866 | HelloFresh | QA Technical Auditor
 
+- [ ] https://careers.hellofresh.com/global/en/job/8278761?gh_jid=8278761 | HelloFresh | Associate Quality Manager
+
 ## Procesadas
