@@ -1245,4 +1245,6 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8278761?gh_jid=8278761 | HelloFresh | Associate Quality Manager
 
+- [ ] https://careers.hellofresh.com/global/en/job/8280227?gh_jid=8280227 | HelloFresh | Food Safety & Quality Assurance Supervisor (18 months contract)
+
 ## Procesadas
