@@ -1247,4 +1247,7 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8280227?gh_jid=8280227 | HelloFresh | Food Safety & Quality Assurance Supervisor (18 months contract)
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4720576008 | Anthropic | TPU Performance Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/8315205?gh_jid=8315205 | HelloFresh | FSQA Technician (15 Months Contract)
+
 ## Procesadas
