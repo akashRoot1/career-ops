@@ -1250,4 +1250,8 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4720576008 | Anthropic | TPU Performance Engineer
 - [ ] https://careers.hellofresh.com/global/en/job/8315205?gh_jid=8315205 | HelloFresh | FSQA Technician (15 Months Contract)
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5468380008 | Anthropic | Data Center Substation, Protection & Automation Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/8315929?gh_jid=8315929 | HelloFresh | FSQA Lead
+- [ ] https://careers.hellofresh.com/global/en/job/8331948?gh_jid=8331948 | HelloFresh | FSQA Technician
+
 ## Procesadas
