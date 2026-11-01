@@ -1254,4 +1254,6 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8315929?gh_jid=8315929 | HelloFresh | FSQA Lead
 - [ ] https://careers.hellofresh.com/global/en/job/8331948?gh_jid=8331948 | HelloFresh | FSQA Technician
 
+- [ ] https://careers.hellofresh.com/global/en/job/8331951?gh_jid=8331951 | HelloFresh | FSQA Technician
+
 ## Procesadas
