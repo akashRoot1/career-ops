@@ -1256,4 +1256,7 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8331951?gh_jid=8331951 | HelloFresh | FSQA Technician
 
+- [ ] https://careers.hellofresh.com/global/en/job/8288583?gh_jid=8288583 | HelloFresh | FSQA Coordinator
+- [ ] https://careers.hellofresh.com/global/en/job/8349831?gh_jid=8349831 | HelloFresh | FSQA Manager – Produce, Herbs and Mushrooms (f/m/x)
+
 ## Procesadas
