@@ -1259,4 +1259,10 @@
 - [ ] https://careers.hellofresh.com/global/en/job/8288583?gh_jid=8288583 | HelloFresh | FSQA Coordinator
 - [ ] https://careers.hellofresh.com/global/en/job/8349831?gh_jid=8349831 | HelloFresh | FSQA Manager – Produce, Herbs and Mushrooms (f/m/x)
 
+- [ ] https://helsing.ai/jobs/5026460101?gh_jid=5026460101 | Helsing | Test Engineer - Environmental 
+- [ ] https://helsing.ai/jobs/5026473101?gh_jid=5026473101 | Helsing | Test Engineer - Ground
+- [ ] https://careers.hellofresh.com/global/en/job/8356005?gh_jid=8356005 | HelloFresh | FSQA Technician (12 Months Contract)
+- [ ] https://jobs.ashbyhq.com/Perplexity/4b5e02a8-6a94-494d-9d49-037f2cfc144d | Perplexity | Member of Technical Staff (Senior QA Web Engineer)
+- [ ] https://jobs.ashbyhq.com/Perplexity/3b349a2f-360e-44e6-a57d-6a87bc3016a7 | Perplexity | Member of Technical Staff (Search Quality Analyst)
+
 ## Procesadas
