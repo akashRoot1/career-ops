@@ -1265,4 +1265,6 @@
 - [ ] https://jobs.ashbyhq.com/Perplexity/4b5e02a8-6a94-494d-9d49-037f2cfc144d | Perplexity | Member of Technical Staff (Senior QA Web Engineer)
 - [ ] https://jobs.ashbyhq.com/Perplexity/3b349a2f-360e-44e6-a57d-6a87bc3016a7 | Perplexity | Member of Technical Staff (Search Quality Analyst)
 
+- [ ] https://careers.hellofresh.com/global/en/job/8366259?gh_jid=8366259 | HelloFresh | FSQA Supervisor (all genders)
+
 ## Procesadas
