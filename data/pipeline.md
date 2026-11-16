@@ -1267,4 +1267,7 @@
 
 - [ ] https://careers.hellofresh.com/global/en/job/8366259?gh_jid=8366259 | HelloFresh | FSQA Supervisor (all genders)
 
+- [ ] https://careers.hellofresh.com/global/en/job/8374974?gh_jid=8374974 | HelloFresh | Food Safety & Quality Assurance Supervisor (6 months contract)
+- [ ] https://sumup.com/careers/positions/8944347002?gh_jid=8944347002 | SumUp | QA Engineer - Payments
+
 ## Procesadas
